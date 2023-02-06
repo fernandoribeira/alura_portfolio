@@ -1,6 +1,6 @@
 # Projetos relacionados aos cursos da Alura
 
-## Projeto "freewayem_javascript"
+## Projeto "freeway_em_javascript"
 
 Projeto do jogo Freeway feito em Javascript, para executar é necessário abrir o projeto no programa VSCode e rodar pela extensão "Live Server".
 
