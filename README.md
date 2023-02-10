@@ -1,12 +1,12 @@
 # Projetos relacionados aos cursos da Alura
 
-## Projeto "freewayem_javascript"
+## Projeto "freeway_em_javascript"
 
-Projeto do jogo Freeway feito em Javascript, para executar é necessário abrir o projeto no programa VSCode e rodar pela extensão "Live Server".
+Projeto do jogo Freeway feito em Javascript, para executar é necessário abrir o projeto no programa VSCode e rodar pela extensão "Live Server" ou acessar o link https://editor.p5js.org/fernandoribeira/full/IuraClDcm .
 
 ## Projeto "pong_em_javascript"
 
-Projeto do jogo PONG feito em Javascript, para executar é necessário abrir o projeto no programa VSCode e rodar pela extensão "Live Server".
+Projeto do jogo PONG feito em Javascript, para executar é necessário abrir o projeto no programa VSCode e rodar pela extensão "Live Server" ou acessar o link https://editor.p5js.org/fernandoribeira/full/StMXuriKO .
 
 ## Projeto "pong_em_scratch"
 
