@@ -19,3 +19,7 @@ Projeto básico em HTML, para executar basta abrir o arquivo index.html.
 ## Projeto "projeto_basico_em _html_figma"
 
 Projeto básico em HTML com layout baeado em template do Figma, para executar basta abrir o arquivo index.html.
+
+## Projeto "projeto_basico_em _html_figma_update"
+
+Projeto básico em HTML com layout baeado em template do Figma, update do projeto "projeto_basico_em _html_figma", foram adionadas novas features, para executar basta abrir o arquivo index.html.

@@ -1,0 +1,148 @@
+/* Import de fontes */
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+/* Reset CSS manual */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Variaveis */
+:root {
+    --cor-primaria: #000000;
+    --cor-secundaria: #F6F6F6;
+    --cor-terciaria: #22D4FD;
+    --cor-hover: #272727;
+    --fonte-principal: 'Krona One', sans-serif;
+    --fonte-secundaria: 'Montserrat', sans-serif;
+}
+
+/* Body */
+body {
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
+}
+
+/* Header */
+.header {
+    padding: 2% 0% 0% 15%;
+}
+
+.header__nav {
+    display: flex;
+    gap: 80px;
+}
+
+.header__nav__link {
+    color: var(--cor-terciaria);
+    font-family: var(--fonte-secundaria);
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+/* Main */
+.main {
+    padding: 5% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 80px;
+}
+
+.main__section {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.main__section__h1 {
+    font-size: 2.25rem;
+    font-family: var(--fonte-principal);
+}
+
+.main__section__p {
+    font-size: 1.5rem;
+    font-family: var(--fonte-secundaria);
+}
+
+.main__section__p--strong {
+    color: var(--cor-terciaria);
+}
+
+.main__section__div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+
+.main__section__div__h2 {
+    font-family: var(--fonte-principal);
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+.main__section__div__a {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    color: var(--cor-secundaria);
+    border: 2px solid var(--cor-terciaria);
+    width: 50%;
+    padding: 21px 0px;
+    text-align: center;
+    font-family: var(--fonte-secundaria);
+    font-weight: 600;
+    font-size: 1.5rem;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+.main__section__div__a:hover {
+    background-color: var(--cor-hover);
+}
+
+.main__section__img {
+    width: 50%;
+}
+
+/* Footer */
+.footer {
+    background-color: var(--cor-terciaria);
+    color: var(--cor-primaria);
+    padding: 24px;
+    text-align: center;
+    font-family: var(--fonte-secundaria);
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+/* Media queries */
+
+@media (max-width: 1200px) {
+
+    /* Header */
+    .header {
+        padding: 5% 0%;
+    }
+
+    .header__nav {
+        justify-content: center;
+    }
+
+    /* Main */
+    .main {
+       flex-direction: column-reverse; 
+       padding: 5%;
+    }
+
+    .main__section {
+        width: auto;
+    }
+
+}
